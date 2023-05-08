@@ -1,0 +1,23 @@
+{
+  "name": "quizquestionbuilder",
+  "version": "1.0.0",
+  "description": "build quiz questions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Victor Mercado",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^4.12.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "node-cron": "^3.0.2",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "prisma": "^4.12.0"
+  }
+}
